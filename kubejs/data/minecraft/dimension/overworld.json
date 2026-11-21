@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:plains",
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:diamond_ore",
+          "height": 63
+        }
+      ],
+      "features": false,
+      "lakes": false,
+      "structure_overrides": []
+    }
+  }
+}
