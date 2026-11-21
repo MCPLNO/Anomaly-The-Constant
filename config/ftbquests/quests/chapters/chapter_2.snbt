@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chapter_2"
+	group: "22477DA49EBEE780"
+	icon: {
+		id: "ae2:pattern_provider"
+	}
+	id: "11A8A015CF0D516A"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DD92B503BBD3CF3"]
+			id: "15EA5471C4012CFF"
+			tasks: [{
+				id: "3F722148C443FD1C"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15EA5471C4012CFF"]
+			id: "18E2C94398DA4C54"
+			size: 2.0d
+			tasks: [{
+				id: "2550A707D9D35A1B"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18E2C94398DA4C54"]
+			id: "1AAEA76F799AC0F5"
+			tasks: [
+				{
+					id: "06DF3F3136B8CDA9"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					id: "03F08D9736DD0498"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					id: "6C26BBEB7C929EB1"
+					item: { count: 1, id: "mekanism:crusher" }
+					type: "item"
+				}
+				{
+					id: "1DD7BA2B15016EF4"
+					item: { count: 1, id: "ae2:tiny_tnt" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AAEA76F799AC0F5"]
+			icon: {
+				id: "ae2lt:pigmee_pattern_provider"
+			}
+			icon_scale: 2.0d
+			id: "261FD36B8EBF3A46"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "1E4D36A02A28CD6D"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_universal_cable"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "72577EFCBD87DCB2"
+					item: {
+						count: 1
+						id: "pipez:item_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3043E9016C4B6E2C"
+					item: {
+						count: 1
+						id: "pipez:advanced_upgrade"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "064536277F77F586"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCEF9F5AA46A2E8"]
+			id: "6F9FCAC55705A85B"
+			tasks: [{
+				id: "531C1F92151FFC5A"
+				item: { count: 1, id: "ae2:fluix_dust" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6F9FCAC55705A85B"
+				"1AAEA76F799AC0F5"
+			]
+			id: "1BD7B7EA4D5F216F"
+			size: 2.0d
+			tasks: [
+				{
+					id: "180D930A780712EC"
+					item: { count: 1, id: "ae2cs:fluix_crystal_seed" }
+					type: "item"
+				}
+				{
+					id: "5BCA3F8C32A8A2EA"
+					item: { count: 1, id: "ae2cs:purified_fluix_crystal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BD7B7EA4D5F216F"]
+			id: "4B6B4C164F1C03C0"
+			tasks: [
+				{
+					id: "47613105275BC10D"
+					item: { count: 1, id: "ae2cs:energized_fluix_crystal_seed" }
+					type: "item"
+				}
+				{
+					id: "6985ED9A2006363B"
+					item: { count: 1, id: "ae2cs:purified_energized_fluix_crystal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6B4C164F1C03C0"]
+			id: "13203A36E1FEF5C5"
+			optional: true
+			tasks: [{
+				id: "1FAFC9D07CDD567C"
+				item: { count: 1, id: "ae2lt:pigmee_crystal_catalyzer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AAEA76F799AC0F5"
+				"1BD7B7EA4D5F216F"
+			]
+			id: "23B0976969581F72"
+			tasks: [
+				{
+					id: "62A866348BD8FDB9"
+					item: { count: 1, id: "kubejs:fluix_fluid_bucket" }
+					type: "item"
+				}
+				{
+					id: "2264EED2FCEF2747"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23B0976969581F72"]
+			id: "6466ABC36EC3E886"
+			tasks: [
+				{
+					id: "14A94960B632A7FA"
+					item: { count: 1, id: "mekanism:ingot_osmium" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6373B7D2AF3EE528"
+					item: { count: 1, id: "mekanism:osmium_ore" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6466ABC36EC3E886"]
+			id: "0605989CA87BCEC8"
+			optional: true
+			tasks: [{
+				count: 16L
+				id: "35069078C632A4B3"
+				item: { count: 1, id: "modularrouters:blank_module" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6466ABC36EC3E886"]
+			id: "34B0EE919E9B0EB5"
+			rewards: [{
+				count: 4
+				id: "0BB1F038912549BE"
+				item: {
+					count: 1
+					id: "ae2cs:simple_pattern_provider"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2B353DE1B6EBB989"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B0EE919E9B0EB5"]
+			id: "17A80543EF25F503"
+			tasks: [{
+				id: "77EA6FB7286E7040"
+				item: { count: 1, id: "ae2cs:crystal_aggregator" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17A80543EF25F503"]
+			id: "471BAE893D58E673"
+			tasks: [{
+				id: "335B0AEC09F89967"
+				item: { count: 1, id: "kubejs:liquid_unknown_bucket" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["471BAE893D58E673"]
+			id: "6969E3BF294844FB"
+			tasks: [{
+				id: "1ABE89733EB22D25"
+				item: { count: 1, id: "advanced_ae:reaction_chamber" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6969E3BF294844FB"]
+			id: "29526B2A2552EA83"
+			optional: true
+			tasks: [{
+				count: 64L
+				id: "2D5FB94EE2D82147"
+				item: { count: 1, id: "ae2:advanced_card" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6969E3BF294844FB"]
+			id: "5062588DAE3683D4"
+			tasks: [{
+				id: "2B540269A44148DC"
+				item: { count: 1, id: "extendedcrafting:luminessence" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5062588DAE3683D4"]
+			id: "370CD0C4F63A9D01"
+			tasks: [{
+				id: "169AA2401EF40088"
+				item: { count: 1, id: "ae2:mysterious_cube" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["370CD0C4F63A9D01"]
+			id: "16CD5755051924E0"
+			tasks: [
+				{
+					id: "3571952A31426891"
+					item: { count: 1, id: "ae2:annihilation_core" }
+					type: "item"
+				}
+				{
+					id: "7480592A09884244"
+					item: { count: 1, id: "ae2:formation_core" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34B0EE919E9B0EB5"]
+			id: "7D7F394A6EEB01E3"
+			optional: true
+			tasks: [{
+				id: "14246D67EA335960"
+				item: { count: 1, id: "extendedae:ex_pattern_provider" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16CD5755051924E0"]
+			id: "043D781E7D4E78F5"
+			tasks: [{
+				id: "71C83DA2CCBC6DA2"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6969E3BF294844FB"]
+			id: "24096C63B3F41A4A"
+			tasks: [
+				{
+					id: "4572EDD6BCCD635C"
+					item: { count: 1, id: "extendedae:infinity_cobblestone_cell" }
+					type: "item"
+				}
+				{
+					id: "1C50EA3C2BEEA483"
+					item: { count: 1, id: "extendedae:infinity_water_cell" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"24096C63B3F41A4A"
+				"6969E3BF294844FB"
+			]
+			id: "16D3D3E459EC5821"
+			tasks: [{
+				id: "084BF37C2918266C"
+				item: { count: 1, id: "mekmm:large_wind_generator" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16CD5755051924E0"]
+			id: "5846229F43E75C03"
+			tasks: [{
+				id: "66052537D8D8AF28"
+				item: { count: 1, id: "ae2omnicells:quantum_crafting_unit_block" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16CD5755051924E0"]
+			id: "379948355FCED79A"
+			tasks: [{
+				id: "50E358F4C8451907"
+				item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1m" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["379948355FCED79A"]
+			id: "3A928E1B06C22908"
+			tasks: [{
+				id: "59B6EC60C9C91927"
+				item: { count: 1, id: "merequester:requester" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+	]
+}

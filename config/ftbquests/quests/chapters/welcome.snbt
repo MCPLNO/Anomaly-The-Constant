@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "welcome"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/diamond_ore"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "63439FC1D98E5418"
+	images: [{
+		click_action: "none:"
+		height: 3.0d
+		id: "157A8CD5A7EF013F"
+		image: "minecraft:block/diamond_ore"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: -2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:barrier"
+			}
+			id: "7691F5FB814817E0"
+			tasks: [{
+				id: "2DD56772A5D87348"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7691F5FB814817E0"]
+			id: "38E3022F3A341E7A"
+			tasks: [{
+				id: "7AFC26D3E1693AAE"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7691F5FB814817E0"]
+			icon: {
+				id: "actuallyadditions:player_probe"
+			}
+			id: "4E3AABA15CB16805"
+			tasks: [{
+				id: "629CDF08E30BEC10"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7691F5FB814817E0"]
+			id: "3E2EAC3D6A541842"
+			tasks: [{
+				id: "43962F7A18E32C9F"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7691F5FB814817E0"]
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "6468EBE70CA8DD28"
+			rewards: [{
+				id: "1D156C2DA19809B6"
+				item: {
+					count: 1
+					id: "minecraft:poppy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C253D100A29BB12"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6468EBE70CA8DD28"]
+			hide_until_deps_complete: true
+			id: "60D7B02EEB363567"
+			tasks: [
+				{
+					id: "7CAEFBE8EA27E77A"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					id: "3454CF5FD7014636"
+					item: { count: 1, id: "minecraft:poppy" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+}

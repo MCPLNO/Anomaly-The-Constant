@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chapter_1_20b55c30b4fe4ad6"
+	group: "7B2E4DD80701CE1B"
+	icon: {
+		id: "mekanism:chemical_infuser"
+	}
+	id: "20B55C30B4FE4AD6"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["23B0976969581F72"]
+		id: "45C1201C55F1C04F"
+		tasks: [{
+			consume_fluid: "DEFAULT"
+			fluid: {
+				amount: 1
+				id: "kubejs:fluix_fluid"
+			}
+			id: "781D26A31CD63D0C"
+			type: "fluid"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
+}

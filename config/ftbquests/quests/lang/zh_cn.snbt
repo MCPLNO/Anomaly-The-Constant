@@ -1,0 +1,87 @@
+{
+	chapter.11A8A015CF0D516A.title: "Chapter 2"
+	chapter.20B55C30B4FE4AD6.chapter_subtitle: ["我们不得不承认化学工程是人类历史上最有意思,复杂,进步的工程"]
+	chapter.20B55C30B4FE4AD6.title: "Chapter 1"
+	chapter.330816753B250B5D.title: "Chapter 3"
+	chapter.54B8D895B73E415D.title: "Chapter 1"
+	chapter.63439FC1D98E5418.chapter_subtitle: ["&kIf all things must have variables, then for me it is the end."]
+	chapter.63439FC1D98E5418.title: "Welcome"
+	chapter_group.22477DA49EBEE780.title: "Phase 1"
+	chapter_group.7B2E4DD80701CE1B.title: "Phase 1"
+	file.0000000000000001.title: "Anomaly"
+	quest.0605989CA87BCEC8.quest_desc: ["用于自动化锇锭"]
+	quest.0FE2B0ACD5E664BD.quest_desc: ["挖掘钻石矿"]
+	quest.16D3D3E459EC5821.quest_desc: ["无消耗发电,但造价昂贵"]
+	quest.17FEB7575279AA71.quest_desc: ["赌狗!"]
+	quest.18E2C94398DA4C54.quest_desc: ["也算是一种铁砧工艺"]
+	quest.18F9CB5E54B37987.quest_desc: ["必先以锇块为基底,绝缘覆层为外部,再加入中型电容,最后放入末影石英,曾益其所不能."]
+	quest.18F9CB5E54B37987.quest_subtitle: "故天将降大任于斯人也"
+	quest.1AAEA76F799AC0F5.quest_desc: ["科学尽头是玄学"]
+	quest.1AAEA76F799AC0F5.quest_subtitle: "三幻神"
+	quest.1CAEDEE4449750B3.quest_desc: ["猪咪抵押"]
+	quest.20F1425DFAE6B535.quest_desc: ["何等怪异的钢锭生产方式"]
+	quest.22E71E3ED9E7EC9F.quest_desc: ["&e泥土&r源于&e沙子&r灌注&e生物质&r"]
+	quest.261FD36B8EBF3A46.quest_desc: ["请收下这些管道吧,以后你就能自己生产了"]
+	quest.261FD36B8EBF3A46.quest_subtitle: "JEI是你的好帮手"
+	quest.261FD36B8EBF3A46.title: "搭建你的第一条自动化!"
+	quest.2C579AD9219F54CC.quest_desc: ["&c必须使用应用通量的钻石粉不是bug，刻意为之!&r"]
+	quest.31BC5FA4DA03017B.quest_desc: ["老一辈艺术家坚持水泡"]
+	quest.32E9F615617888C5.quest_subtitle: "这只是1次故障..."
+	quest.34B0EE919E9B0EB5.quest_desc: [
+		"要开始自动化喽"
+		"当然:你也可以选择&e初级样板供应器&r"
+	]
+	quest.370CD0C4F63A9D01.quest_desc: ["10086"]
+	quest.370CD0C4F63A9D01.quest_subtitle: "借由他人,寻找自我"
+	quest.379948355FCED79A.quest_subtitle: "一念神魔"
+	quest.38E3022F3A341E7A.quest_desc: [
+		"作者: Twitch neverp134"
+		"      BiliBili NeverPlayMine"
+	]
+	quest.39C1F0702852AFA3.quest_desc: ["钻石是耐烧王"]
+	quest.3A928E1B06C22908.quest_subtitle: "plus"
+	quest.3E2EAC3D6A541842.quest_desc: ["尚无联系方式"]
+	quest.3E2EAC3D6A541842.title: "联系我"
+	quest.4A4715602F363633.quest_desc: ["请看水的配方"]
+	quest.4B6B4C164F1C03C0.quest_subtitle: "你有病吧!!!???"
+	quest.4CCEF9F5AA46A2E8.quest_desc: ["物理学不存在了(震惊)"]
+	quest.4E3AABA15CB16805.quest_desc: [
+		"我使用KubeJS变更了以下规则:"
+		"    ('gamerule doMobSpawning false')"
+		"    ('gamerule doDaylightCycle false')"
+		"    ('gamerule doWeatherCycle false')"
+		"    ('gamerule keepInventory true')"
+		"    ('gamerule waterSourceConversion false')"
+		"    ('gamerule lavaSourceConversion false')"
+	]
+	quest.4E3AABA15CB16805.title: "Notes"
+	quest.4EFC82AFB1429452.quest_desc: [
+		"既可作为&e凝胶的食物&r,也可用于生产&e生物质&r"
+		"&m如果你用苹果当我没说"
+	]
+	quest.5A04205B40374754.quest_desc: [
+		"&e允许种植于钻石矿上&r"
+		"&e骨粉怎么来&r:&a钻石块&r"
+	]
+	quest.5AE3495FC5F7F2E3.quest_subtitle: "我们不得不期望用户能够看到凝胶配方"
+	quest.5C64CC205A084CA3.quest_desc: ["右键它!"]
+	quest.60D7B02EEB363567.quest_desc: [""]
+	quest.60D7B02EEB363567.quest_subtitle: "而那最后一个鸣谢的:&z便是你"
+	quest.60D7B02EEB363567.title: "开始吧"
+	quest.6466ABC36EC3E886.quest_desc: ["&eTips&r:现在锇矿石会掉落锇锭了"]
+	quest.6468EBE70CA8DD28.quest_desc: ["感谢这些Mod作者,及所有为MC社区做出贡献的人"]
+	quest.6468EBE70CA8DD28.title: "鸣谢"
+	quest.6F9FCAC55705A85B.quest_desc: ["破坏&e福鲁伊克斯块&r以获得"]
+	quest.7691F5FB814817E0.quest_desc: [
+		"你正在游玩:测试版"
+		"&kIf all things must have variables, then for me it is the end."
+	]
+	quest.7691F5FB814817E0.title: "Hello"
+	quest.7CC41A080027ABBA.quest_desc: ["吃时运哦"]
+	quest.7CC41A080027ABBA.quest_subtitle: "挖掘恩特罗水晶簇掉落"
+	task.064536277F77F586.title: "搭建你的第一条自动化!"
+	task.2DD56772A5D87348.title: "Hello"
+	task.43962F7A18E32C9F.title: "Contact Me"
+	task.629CDF08E30BEC10.title: "Notice"
+	task.7AFC26D3E1693AAE.title: "author"
+}

@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chapter_1"
+	group: "22477DA49EBEE780"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "54B8D895B73E415D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63439FC1D98E5418"]
+			id: "0FE2B0ACD5E664BD"
+			tasks: [{
+				count: 64L
+				id: "69866E20A0622F9E"
+				item: { count: 1, id: "mekanism:dust_diamond" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FE2B0ACD5E664BD"]
+			id: "725935ED4519241C"
+			tasks: [{
+				id: "6E721148B878E60E"
+				item: { components: { "minecraft:damage": 865 }, count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["725935ED4519241C"]
+			id: "5C64CC205A084CA3"
+			tasks: [{
+				count: 64L
+				id: "33CC3C98ACB79CEF"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C64CC205A084CA3"]
+			id: "396661771461570B"
+			tasks: [{
+				id: "3CC8D8655255C73D"
+				item: { count: 1, id: "minecraft:diamond_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["396661771461570B"]
+			id: "14FE889572F9E990"
+			tasks: [{
+				id: "755F93682385B612"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14FE889572F9E990"]
+			id: "54CBF1CA674CC15B"
+			tasks: [{
+				id: "304C50339D8F8C20"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54CBF1CA674CC15B"]
+			id: "39C1F0702852AFA3"
+			tasks: [{
+				id: "567A0BAE70311B98"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C1F0702852AFA3"]
+			id: "00E3D7D51F905F77"
+			tasks: [{
+				id: "6215B22D8D2C832B"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"39C1F0702852AFA3"
+				"00E3D7D51F905F77"
+			]
+			id: "4A4715602F363633"
+			tasks: [{
+				id: "4B8B9FA3638A67B5"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4A4715602F363633"
+				"00E3D7D51F905F77"
+			]
+			id: "4CCEF9F5AA46A2E8"
+			tasks: [
+				{
+					count: 2L
+					id: "7DF4A6AF9AAC7672"
+					item: { count: 1, id: "ae2cs:certus_quartz_seed" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1F9A98CCE5EEAA15"
+					item: { count: 1, id: "ae2cs:purified_certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CCEF9F5AA46A2E8"]
+			id: "026CE89947E23E17"
+			tasks: [{
+				id: "6DA92874743C0ACE"
+				item: { count: 1, id: "ae2cs:crystal_pulverizer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["026CE89947E23E17"]
+			id: "2C579AD9219F54CC"
+			optional: true
+			tasks: [{
+				id: "7469285D497A2434"
+				item: { components: { "ae2cs:side_config_for_memory_card": { side_policies: { down: "all", east: "all", north: "all", south: "all", up: "all", west: "all" } } }, count: 1, id: "ae2cs:crystal_growth_chamber" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["026CE89947E23E17"]
+			id: "2926A71A7D33502B"
+			tasks: [{
+				id: "1D23639CD56E2C84"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02490E1974B5028A"]
+			id: "1CAEDEE4449750B3"
+			optional: true
+			rewards: [{
+				id: "5198A198FD9CD508"
+				item: {
+					components: {
+						"ae2:stored_energy": 20000.0d
+					}
+					count: 1
+					id: "ae2omnicells:portable_quantum_omni_cell_64k"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3D434370C595AF3E"
+				item: { count: 1, id: "ae2lt:pigmee_fumo" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02490E1974B5028A"]
+			id: "0E9F0F2A3FE1130E"
+			optional: true
+			rewards: [
+				{
+					id: "1C395CC60BD0DD5B"
+					item: {
+						count: 1
+						id: "ae2lt:tianshu_crafting_terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "3CBF9AA68A5F2911"
+					item: {
+						count: 1
+						id: "ae2:pink_smart_cable"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FAB838E85B0952C"
+				item: { count: 1, id: "ae2:chest" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2926A71A7D33502B"]
+			id: "31BC5FA4DA03017B"
+			optional: true
+			tasks: [
+				{
+					id: "4E1AE3176D663318"
+					item: { count: 1, id: "ae2omnicells:quantum_omni_cell_component_1k" }
+					type: "item"
+				}
+				{
+					id: "0CFB37B03A36C97D"
+					item: { count: 1, id: "ae2omnicells:quantum_omni_cell_1k" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2926A71A7D33502B"]
+			id: "02490E1974B5028A"
+			optional: true
+			tasks: [{
+				id: "4DD85C0607CDD6B5"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2926A71A7D33502B"]
+			id: "17FEB7575279AA71"
+			tasks: [{
+				id: "4A31F08866BD7722"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17FEB7575279AA71"]
+			id: "5A04205B40374754"
+			tasks: [
+				{
+					id: "128FD2D696533C55"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+				{
+					id: "62D9D046FA3752D3"
+					item: { count: 1, id: "minecraft:composter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A04205B40374754"]
+			id: "20F1425DFAE6B535"
+			tasks: [
+				{
+					id: "1CB8A8CA3D9D117A"
+					item: { count: 1, id: "ae2:condenser" }
+					type: "item"
+				}
+				{
+					id: "0DD92B503BBD3CF3"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["39C1F0702852AFA3"]
+			id: "642906386914D502"
+			tasks: [{
+				id: "686860457057333A"
+				item: { count: 1, id: "mekmm:large_heat_generator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20F1425DFAE6B535"]
+			id: "502C806F416D8476"
+			optional: true
+			tasks: [{
+				id: "523413E0FB908EAA"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+	]
+}

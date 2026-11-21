@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "chapter_2_330816753b250b5d"
+	group: "22477DA49EBEE780"
+	icon: {
+		id: "extendedae:entro_seed"
+	}
+	id: "330816753B250B5D"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["043D781E7D4E78F5"]
+			id: "787D6AA8AFBC959D"
+			tasks: [{
+				count: 2L
+				id: "7C138349EC3B4BB2"
+				item: { count: 1, id: "extendedae:entro_seed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["787D6AA8AFBC959D"]
+			id: "7CC41A080027ABBA"
+			rewards: [{
+				id: "72564365BAE6FE4E"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							mode: { }
+						}
+					}
+					count: 1
+					id: "avaritia:infinity_pickaxe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58F239533253AF2C"
+				item: { count: 1, id: "ae2cs:purified_ender_quartz" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CC41A080027ABBA"]
+			id: "66032A55C10C29B7"
+			tasks: [
+				{
+					id: "1F778751743959B7"
+					item: { count: 1, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+				{
+					id: "551865D25505E769"
+					item: { count: 1, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CC41A080027ABBA"]
+			id: "12CB772D4E8D9E31"
+			rewards: [
+				{
+					id: "3058507EBE751463"
+					item: {
+						count: 1
+						id: "ae2ltpp:packaged_pattern_provider"
+					}
+					type: "item"
+				}
+				{
+					id: "351476D6BFC671FB"
+					item: {
+						count: 1
+						id: "ae2ltpp:aa_reconstructor_packaged_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C20E2076D60BE3C"
+					item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+					type: "item"
+				}
+				{
+					id: "3845781E4675A6E4"
+					item: { count: 1, id: "appflux:energy_processor_press" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12CB772D4E8D9E31"]
+			id: "48438316A0BC1E05"
+			rewards: [{
+				id: "4DFBCC967905B286"
+				item: {
+					count: 1
+					id: "ae2lt:overloaded_frequency_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15EFEFC9E0E6F5FE"
+				item: { count: 1, id: "ae2lt:advanced_wireless_overloaded_controller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12CB772D4E8D9E31"]
+			id: "65B352B1513D2384"
+			tasks: [{
+				id: "1A1EB7A659725763"
+				item: { count: 1, id: "extendedae_plus:basic_core" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6466ABC36EC3E886"
+				"5C64CC205A084CA3"
+			]
+			id: "4EFC82AFB1429452"
+			tasks: [{
+				id: "0DA2F7DE993058D2"
+				item: { count: 1, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4EFC82AFB1429452"
+				"65B352B1513D2384"
+			]
+			id: "22E71E3ED9E7EC9F"
+			rewards: [{
+				id: "16E3E816A7589AC4"
+				item: {
+					count: 1
+					id: "jdte:advanced_gel_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F338E44441043BD"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22E71E3ED9E7EC9F"]
+			id: "5AE3495FC5F7F2E3"
+			tasks: [{
+				id: "7D4A61575E105105"
+				item: { count: 1, id: "mekanism:block_lead" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AE3495FC5F7F2E3"]
+			id: "0C666D6B5EB2BC57"
+			tasks: [
+				{
+					count: 64L
+					id: "4BFBFE9C63566EAE"
+					item: { count: 1, id: "powah:dielectric_paste" }
+					type: "item"
+				}
+				{
+					id: "3805BEFCC0BB1D6E"
+					item: { count: 1, id: "powah:capacitor_basic" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C666D6B5EB2BC57"]
+			id: "18F9CB5E54B37987"
+			tasks: [{
+				id: "1597668AADEC60A3"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C666D6B5EB2BC57"]
+			id: "32E9F615617888C5"
+			tasks: [{
+				id: "4D7B14E39CC8B361"
+				item: { count: 1, id: "mekmm:scrap" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32E9F615617888C5"]
+			id: "1F67DAD9EEDF00EC"
+			tasks: [{
+				id: "50CD7E3CEE1D6AE0"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F67DAD9EEDF00EC"]
+			id: "51C3ED9CC640069C"
+			tasks: [{
+				id: "78FD3B5A9D75FA01"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C666D6B5EB2BC57"]
+			id: "55ECAE2D222ACAED"
+			tasks: [{
+				id: "5454CE0290337652"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+	]
+}
